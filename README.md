@@ -17,63 +17,63 @@ Multilayer dielectric mirrors operate through constructive interference between 
 
 The transfer matrix method enables:
 - Accurate reflectance spectrum calculation
-“*”Polarization-dependent modeling
-“*”Electric field distribution inside layers
-“*”Sensitivity and reliability analysis
+- Polarization-dependent modeling
+- Electric field distribution inside layers
+- Sensitivity and reliability analysis
 
 This approach is widely used in thin-film optical design and laser coating engineering.
 
 **Simulation Outputs**
-**“*”Reflectance Spectrum**
+**- Reflectance Spectrum**
 
 File: reflectance_266nm.png
-“*”X-axis: Wavelength (250–300 nm)
-“*”Y-axis: Reflectance (0–1)
+- X-axis: Wavelength (250–300 nm)
+- Y-axis: Reflectance (0–1)
 
 Result:
-“*”High-reflectivity band centered at 266 nm
-“*”Peak reflectance >95% (lossless design)
-“*”Expected spectral roll-off away from center wavelength
-“*”This demonstrates proper quarter-wave interference behavior.
+- High-reflectivity band centered at 266 nm
+- Peak reflectance >95% (lossless design)
+- Expected spectral roll-off away from center wavelength
+- This demonstrates proper quarter-wave interference behavior.
 
-**“*”Electric Field Distribution**
+**- Electric Field Distribution**
 File: field_distribution.png
-“*”X-axis: Depth into coating (µm)
-“*”Y-axis: Normalized |E|²
+- X-axis: Depth into coating (µm)
+- Y-axis: Normalized |E|²
 
 Result:
-“*”Standing-wave pattern inside multilayer
-“*”Field localization primarily within low-index layers
-“*”Field decay toward substrate for HR configuration
+- Standing-wave pattern inside multilayer
+- Field localization primarily within low-index layers
+- Field decay toward substrate for HR configuration
 
 This is critical for analyzing:
-“*”Laser damage thresholds
-“*”Absorption-induced heating
-“*”Degradation mechanisms in DUV environments
+- Laser damage thresholds
+- Absorption-induced heating
+- Degradation mechanisms in DUV environments
 
-**“*”Thickness Sensitivity Analysis**
+**- Thickness Sensitivity Analysis**
 File: thickness_sensitivity.png
-“*”X-axis: Thickness variation (±5 nm)
-“*”Y-axis: Reflectance at 266 nm
+- X-axis: Thickness variation (±5 nm)
+- Y-axis: Reflectance at 266 nm
 
 Result:
-“*”Maximum reflectance at nominal thickness
-“*”Symmetric degradation for positive/negative deviations
-“*”Tolerance window indicating manufacturing robustness
+- Maximum reflectance at nominal thickness
+- Symmetric degradation for positive/negative deviations
+- Tolerance window indicating manufacturing robustness
 This models deposition sensitivity and production yield stability.
 
-**“*”Absorption Sensitivity Analysis**
+**- Absorption Sensitivity Analysis**
 
 File: absorption_sensitivity.png
-“*”X-axis: Imaginary refractive index (k)
-“*”Y-axis: Reflectance
+- X-axis: Imaginary refractive index (k)
+- Y-axis: Reflectance
 
 Result:
-“*”Monotonic reflectance reduction with increasing absorption
-“*”Demonstrates importance of low-loss DUV materials
-“*”Links coating optical performance to degradation risk
+- Monotonic reflectance reduction with increasing absorption
+- Demonstrates importance of low-loss DUV materials
+- Links coating optical performance to degradation risk
 
 Relevant for:
-“*”DUV laser systems
-“*”Long-term coating reliability
-“*”Semiconductor inspection optics
+- DUV laser systems
+- Long-term coating reliability
+- Semiconductor inspection optics
