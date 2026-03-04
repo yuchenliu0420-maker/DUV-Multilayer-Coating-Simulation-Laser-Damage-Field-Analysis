@@ -16,7 +16,7 @@ Multilayer dielectric mirrors operate through constructive interference between 
 𝑑 =λ₀/4n
 
 The transfer matrix method enables:
-“*”Accurate reflectance spectrum calculation
+- Accurate reflectance spectrum calculation
 “*”Polarization-dependent modeling
 “*”Electric field distribution inside layers
 “*”Sensitivity and reliability analysis
